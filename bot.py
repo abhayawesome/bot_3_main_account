@@ -244,7 +244,7 @@ def send_welcome(message):
     # )
 
     welcome_text = (
-        " "
+        "Welcome to the Interview + Written Preparation Bot"
     )
     
     bot.send_message(

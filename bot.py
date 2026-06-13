@@ -244,7 +244,7 @@ def send_welcome(message):
     # )
 
     welcome_text = (
-        ""
+        " "
     )
     
     bot.send_message(

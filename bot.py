@@ -244,7 +244,8 @@ def send_welcome(message):
     # )
 
     welcome_text = (
-        "Welcome to the Interview + Written Preparation Bot"
+        "Welcome to the NDA, CDS, AFCAT, and SSB Preparation Bot!\n\n"
+        "Please select a category below to begin your practice:"
     )
     
     bot.send_message(

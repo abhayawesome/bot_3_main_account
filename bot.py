@@ -238,9 +238,13 @@ def send_welcome(message):
     markup.add(btn_nda, btn_afcat, btn_cds, btn_ssb)
     
     # Cleaned, professional formatting with the download link
+    # welcome_text = (
+    #     "Welcome to the NDA, CDS, AFCAT, and SSB Preparation Bot.\n\n"
+    #     "Select a category below to begin your practice."
+    # )
+
     welcome_text = (
-        "Welcome to the NDA, CDS, AFCAT, and SSB Preparation Bot.\n\n"
-        "Select a category below to begin your practice."
+        ""
     )
     
     bot.send_message(
